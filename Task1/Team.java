@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public class Team{
-	String teamName;
-	int rank;
-	ArrayList<String> memberNames = new ArrayList<>();
+	private String teamName;
+	private int rank;
+	private ArrayList<String> memberNames = new ArrayList<>();
 
 	public Team(String teamName){
 		this.teamName = teamName;
